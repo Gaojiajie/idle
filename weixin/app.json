@@ -1,0 +1,67 @@
+{
+  "pages": [
+    "pages/index/auth/anth",
+    "pages/index/index",
+    "pages/index/goods/goods",
+    "pages/index/publishGoods/publishGoods",
+    "pages/index/register/register",
+    "pages/logs/logs",
+    "pages/index/test/test",
+    "pages/index/goodsDetails/goodsDetails",
+    "pages/index/login/login",
+    "pages/index/personal/personal",
+    "pages/index/passwordManage/passwordManage",
+    "pages/index/userInfoManage/userInfoManage",
+    "pages/index/qr/qr",
+    "pages/index/personalGoods/personalGoods",
+    "pages/index/statistics/statistics",
+    "pages/index/message/message",
+    "pages/index/error/error",
+    "pages/index/userAdmin/userAdmin",
+    "pages/index/activity/activity"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "pages/images/portal-fill.png",
+        "iconPath": "pages/images/portal.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "pages/images/find-fill.png",
+        "iconPath": "pages/images/find.png",
+        "pagePath": "pages/index/goods/goods",
+        "text": "发现"
+      },
+      {
+        "selectedIconPath": "pages/images/publish-fill.png",
+        "iconPath": "pages/images/publish.png",
+        "pagePath": "pages/index/publishGoods/publishGoods",
+        "text": "发布"
+      },
+      {
+        "selectedIconPath": "pages/images/info-fill.png",
+        "iconPath": "pages/images/info.png",
+        "pagePath": "pages/index/message/message",
+        "text": "消息"
+      },
+      {
+        "selectedIconPath": "pages/images/user-fill.png",
+        "iconPath": "pages/images/user.png",
+        "pagePath": "pages/index/personal/personal",
+        "text": "我的"
+      }
+    ]
+  }
+}

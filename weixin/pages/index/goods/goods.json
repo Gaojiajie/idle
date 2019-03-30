@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "发现好物",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTextStyle": "black",
+  "onReachBottomDistance":0
+}
