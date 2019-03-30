@@ -33,7 +33,7 @@ public class LoginInfo {
 
     @Autowired
     private AuthenticationUserService authenticationUserService;
-
+ 
     @ResponseBody
     @GetMapping("/weChat/getUserInfo")
     public ResponseEntity<?> getUser(@RequestParam(required = false, value = "code") String code,
