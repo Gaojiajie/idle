@@ -31,7 +31,7 @@ public class LoginInfo {
     private static String APPID = "wx0cec7a060aec965f";
     private static String SECRET = "fba8aa72588505da9213c0f99e98af86";
 
-    @Autowired 
+    @Autowired
     private AuthenticationUserService authenticationUserService;
 
     @ResponseBody
