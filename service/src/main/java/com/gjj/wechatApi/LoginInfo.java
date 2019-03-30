@@ -28,8 +28,8 @@ import java.util.Map;
 @RestController
 public class LoginInfo {
     private static String URL = "https://api.weixin.qq.com/sns/jscode2session";
-    private static String APPID = "wxc187cdff32e923ee";
-    private static String SECRET = "c06faeb614575173b397c929bbdb5dff";
+    private static String APPID = "wx0cec7a060aec965f";
+    private static String SECRET = "fba8aa72588505da9213c0f99e98af86";
 
     @Autowired
     private AuthenticationUserService authenticationUserService;
