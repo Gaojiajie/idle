@@ -224,7 +224,7 @@ Page({
                 },
                 index: -1,
                 imagesList:[],
-                flag: true
+                flag: false
               });  
             }
           })
