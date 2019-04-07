@@ -1,1 +1,12 @@
 /* pages/index/auth/anth.wxss */
+.image-item {
+  width: 100%;
+  text-align: center;
+}
+image {
+  text-align: center
+}
+button {
+  width: 50%;
+
+}

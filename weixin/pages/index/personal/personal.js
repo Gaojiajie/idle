@@ -65,8 +65,6 @@ Page({
         })
       }
     })
-    console.log(app.globalData.userInfo + "122")
-    console.log(app.globalData.role)
     that.setData({
       userInfo: app.globalData.userInfo,
       role: app.globalData.role
@@ -139,9 +137,13 @@ Page({
     }
   },
   goPageAdmin: function() {
-    console.log("1")
     wx.navigateTo({
       url: '../userInfoManage/userInfoManage'
+    })
+  },
+  goPageEchart: function () {
+    wx.navigateTo({
+      url: '../echart/echart'
     })
   }
 })

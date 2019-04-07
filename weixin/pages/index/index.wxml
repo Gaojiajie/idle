@@ -4,7 +4,7 @@
     <swiper indicator-dots="true" autoplay="true" interval="5000" duration="500">
       <block wx:for="{{imgUrls}}">
         <swiper-item>
-          <image src="{{item}}" bindtap='news' class="slide-image" width="100%" height="300" />
+          <image src="{{item}}" bindtap='news' class="slide-image" width="100%" />
         </swiper-item>
       </block>
     </swiper>
@@ -12,15 +12,8 @@
   <!-- <view class='title'>
   <image class="user-image-small" src="../images/bar.png" bindtap='cancelCare' />
   统计</view> -->
-  <view class="containerIndex">
-    <view class='title'>
-      <image class="user-image-small" src="../images/bar.png" bindtap='cancelCare' /> 概况统计
-    </view>
-    <ec-canvas id="mychart-dom-bar" canvas-id="mychart-multi-scatter" ec="{{ ecBar }}"></ec-canvas>
-    <view class='title'>
-      <image class="user-image-small" src="../images/pie.png" bindtap='cancelCare' /> 商品类别统计
-    </view>
-    <ec-canvas id="mychart-dom-multi-scatter" canvas-id="mychart-bar" ec="{{ ecFar }}"></ec-canvas>
-   <view class="clear" style='clear: both;'></view>
+  <view class='content'>
+  <view class='title'>介绍</view> 
+  <view class='dec'>在互联网快速发展的今天，互联网大公司都把目光投到了线下，互联网与线下的相互融合才是未来发展的方向。如今二手交易网站存在信息不对称，信息虚假的弊端，消费者很难辨清。再之，高校是二手物品的一个超大市场，诚然线上确实能解决很多交易的问题，但是线下渠道也又有着无可比拟的优势，所以本系统基于高校的二手物品信息的发布，为广大大学生提供了方便快捷，平等互利的交易平台，高效实时的高校信息服务型移动端的C2C小程序平台.</view>
   </view>
 </view>

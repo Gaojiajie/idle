@@ -23,6 +23,12 @@
         <text class="title">用户管理</text>
       </view>
     </view>
+    <view class="item-avatar-xs" data-url="../echart/echart" bindtap="goPageEchart">
+      <image src="../../images/personal-echart.png" />
+      <view style="padding-left:10px">
+        <text class="title">系统统计</text>
+      </view>
+    </view>
   </view>
   <view wx:for="{{list}}" wx:key="index" wx:for-item="item">
     <view class="graySpace"></view>

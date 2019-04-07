@@ -33,6 +33,7 @@ Page({
         })
       }
     })
+    
     this.freshGoods();
   
   },

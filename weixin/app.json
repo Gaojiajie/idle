@@ -6,7 +6,6 @@
     "pages/index/publishGoods/publishGoods",
     "pages/index/register/register",
     "pages/logs/logs",
-    "pages/index/test/test",
     "pages/index/goodsDetails/goodsDetails",
     "pages/index/login/login",
     "pages/index/personal/personal",
@@ -18,7 +17,8 @@
     "pages/index/message/message",
     "pages/index/error/error",
     "pages/index/userAdmin/userAdmin",
-    "pages/index/activity/activity"
+    "pages/index/activity/activity",
+    "pages/index/echart/echart"
   ],
   "window": {
     "backgroundTextStyle": "light",
